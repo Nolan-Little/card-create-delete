@@ -1,0 +1,26 @@
+.article--container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  border: solid black 2px;
+  min-width: 20vw;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: break-word;
+  align-items: center;
+}
+
+.delete--button {
+  align-self: flex-end;
+  margin: 5px;
+}
+p {
+  padding: 10px;
+}
